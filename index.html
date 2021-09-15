@@ -6,12 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home | Portfolio</title>
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
   <nav class="navigation container">
-    <div class="nav-brand">IAmKK</div>
+    <div class="nav-brand">Krishnakant_Singh</div>
     <ul class="list-non-bullet nav-items-align">
       <li class="list-inline">
         <a class="link link-active" href="/">home</a>
@@ -26,7 +27,9 @@
   </nav>
 
   <header class="hero">
-    <img class="hero-img" src="/images/hero.svg" />
+    <div class="container container-center">
+      <img src="/images/my_photo.jpg" alt="Avatar" class="avatar">
+  </div>
     <h1 class="hero-heading">KK the <span class="heading-inverted">web developer.</span></h1>
   </header>
 
@@ -41,7 +44,7 @@
   <section class="section">
     <div class="container container-center">
       <h1>technologies</h1>
-      <p>I'm familiar with App Developement. I know Java, Python, C++, C. I've also learned to use Firebase. Currently,
+      <p class="description">I'm familiar with App Developement. I know Java, Python, C++, C. I've also learned to use Firebase. Currently,
         I'm learning HTML, CSS and Javascrpit from neog camp.</p>
     </div>
   </section>
@@ -49,8 +52,8 @@
   <section class="section ow">
     <div class="container container-center">
       <h1>projects</h1>
-      <p>I've done few projects in Android. My flagship project is Pawspace- an animal adoption app. Checkout all of
-        them here.</p>
+      <p class="description">I've done few projects in Android. I've recently started with web development. Checkout all of
+        my projects here.</p>
       <a class="link link-primary" href="projects.html">See Projects</a>
 
     </div>
@@ -59,13 +62,12 @@
   <section class="section ">
     <div class="container container-center">
       <h1>blogs</h1>
-      <p>I'm an App Developer. I'm familiar with Java, Python, C++, C. I've also learned to use Firebase. Currently, I'm
-        learning HTML, CSS and Javascrpit from neog camp. Read my blog here.</p>
+      <p class="description">I'm working on some technical and non-technical blogs. I like to document my journey of learning.</p>
       <a class="link link-secondary" href="blogs.html">See Blogs</a>
     </div>
   </section>
 
-  <footer class="footer">
+  <!-- <footer class="footer">
     <div class="footer-header">connect with me at</div>
     <ul class="list-non-bullet">
       <li class="list-inline">
@@ -78,7 +80,25 @@
         <a class="link" href="https://www.linkedin.com/in/krishnakant-singh-333450193/">linkedIn</a></li>
 
     </ul>
-  </footer>
+  </footer> -->
+
+  <footer class="footer">
+    <ul class="social-links">
+
+        <li class="list-item-inline"><a href="mailto: singhkrishnakant3@gmail.com"><i
+                    class='bx bxs-envelope'></i></a></li>
+
+        <li class="list-item-inline"><a href="https://github.com/krishnakant01" target="_blank"><i
+                    class='bx bxl-github'></i></a></li>
+
+        <li class="list-item-inline"><a href="https://twitter.com/krishnakant_01" target="_blank"><i
+                    class='bx bxl-twitter'></i></a></li>
+
+        <li class="list-item-inline"><a href="https://www.linkedin.com/in/krishnakant-singh-333450193/"
+                target="_blank"><i class='bx bxl-linkedin-square'></i></a></li>
+    </ul>
+    <p class="footer-p">  Made by Krishnakant Singh</p>
+</footer>
 
 
 </body>
