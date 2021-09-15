@@ -23,7 +23,7 @@ hr{
    /* margin: 1rem; */
 }
 .container-center{
-    max-width: 600px;
+    max-width: 40vw;
     margin: auto;
     text-align: center;
     padding-bottom: 2rem;
