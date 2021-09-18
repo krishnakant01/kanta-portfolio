@@ -45,6 +45,11 @@ hr{
     border-radius: 0.35rem;
     margin-right: 0.5rem;
 }
+.link-primary:hover,
+.link-primary:focus{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
 .link-secondary{
     background-color: white;
     color: var(--primary-color);
@@ -179,4 +184,32 @@ hr{
 }
 .footer-p{
     margin-left:2.5rem;
+}
+
+/**Typewriter**/
+
+/* .typewriter h1{
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.10em;
+    animation: typing 3.5s steps(40,end), 
+                blink-caret 0.75s step-end infinite;
+}
+@keyframes typing{
+    from {width:0}
+    to{width: 100%}
+
+}
+@keyframes blink-caret {
+    from, to {border-color: transparent;}
+    50% {border-color:orange;}    
+} */
+
+/*img*/
+.img{
+    text-align: center;
+    /* margin-bottom: 1rem; */
+    border-radius: 1rem;
 }
